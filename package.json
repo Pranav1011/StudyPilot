@@ -1,0 +1,14 @@
+{
+  "name": "studypilot",
+  "version": "1.0.0",
+  "description": "AI-powered study companion that transforms YouTube educational videos into interactive learning experiences",
+  "scripts": {
+    "dev": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up",
+    "build": "docker-compose build",
+    "test": "docker-compose run backend pytest && docker-compose run frontend npm test",
+    "lint": "docker-compose run backend flake8 . && docker-compose run frontend npm run lint"
+  },
+  "keywords": ["education", "ai", "youtube", "learning", "quiz", "flashcards"],
+  "author": "StudyPilot Team",
+  "license": "MIT"
+} 

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "studypilot": {
+      "command": "python",
+      "args": ["-m", "mcp.studypilot_mcp"],
+      "env": {}
+    }
+  }
+} 

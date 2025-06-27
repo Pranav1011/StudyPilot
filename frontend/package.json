@@ -1,0 +1,38 @@
+{
+  "name": "studypilot-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.3.3",
+    "@tanstack/react-query": "5.17.0",
+    "axios": "1.6.2",
+    "react-player": "2.13.0",
+    "framer-motion": "10.16.16",
+    "recharts": "2.10.3",
+    "react-markdown": "9.0.1",
+    "zustand": "4.4.7",
+    "tailwindcss": "3.4.0",
+    "lucide-react": "latest",
+    "react-hot-toast": "latest",
+    "clsx": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  }
+} 

@@ -1,0 +1,1 @@
+# FastAPI app with CORS, middleware, error handlers 
